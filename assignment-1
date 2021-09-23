@@ -1,0 +1,75 @@
+Python -Assignment 1 
+
+ 
+
+1)Create a variable named carname and assign the value Volvo to it. 
+carname = "Volvo"
+ 
+2)Multiply 10 with 5, and print the result. 
+print(10*5)
+ 
+3)what will be the output of print 9//2 and why? 
+print(9//2) = 8 
+because "//" considers floor number
+ 
+4)Create a string, an integer, and a floating point number. The string should be named mystring and should contain the word "hello". 
+The floating point number should be named myfloat and should contain the number 10.0, and the integer should be named myint and should contain the number 20. 
+mystring = "hello"
+myint = 20
+myfloat = 10.0
+ 
+5)What is the output of the following assignment operator 
+y = 10 
+x =y +2 
+print(x) 
+
+ 12
+
+6)What is the output of the following code 
+x = 100 
+y = 50 
+print(x * y) 
+
+ 5000
+
+7)What is the output of print(2%6) 
+2
+ 
+8)How would you check if each word in a string begins with a capital letter? 
+mystring = "Hello world"
+mystring.isupper()
+ 
+9) Count the total number of characters in a string 
+mystring = "Hello World"
+len(mystring)
+ 
+10) Split a string on a specific character(Use space as a delimiter in any string) 
+word = 'CatBatSatFatOr'
+  
+# Splitting at t
+print(word.split('t'))
+ 
+11)Uppercase or lowercase an entire string. 
+string = "Hello world"
+string.upper()
+ 
+12)What is the effect of multiplying a string by 3? 
+string = "Hello world"
+pring(string[3:7])
+print(string*3)
+ 
+13)Concatenate two strings 
+s1 = "hello"
+s2 = "world"
+print (s1+s2)
+ 
+14)prints the characters of string from 3 to 7 skipping one character. 
+string = "Hello world"
+print(string[3:8])
+print(string[3:8:1])
+ 
+15)what is the output of print "Hello World"[::-1] and why? 
+dlroW olleH
+
+It reverses the string
+ 
